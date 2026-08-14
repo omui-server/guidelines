@@ -5,20 +5,18 @@ weight: 21
 
 # Docker
 
-{{< hint warning >}}
-**It is recommended to use Docker.**
-You can create your virtual environment with venv since Python is pre-installed on the OMUI Server.
-However, this is not recommended because the Python version may be out of date.
-{{</ hint >}}
+> [!WARNING]
+> **It is recommended to use Docker.**
+> You can create your virtual environment with venv since Python is pre-installed on the OMUI Server.
+> However, this is not recommended because the Python version may be out of date.
 
 This page explains the basic usage of Docker.
 To learn more, check [the official documentation](https://docs.docker.com/).
 
 ## Rootless Docker Configuration
 
-{{< hint info >}}
-Do this only once. Not required if already installed.
-{{</ hint >}}
+> [!NOTE]
+> Do this only once. Not required if already installed.
 
 You can use [Rootless Docker](https://docs.docker.com/engine/security/rootless/) on the OMUI Server.
 Rootless Docker enables you to manage Docker containers or images for individual users.
@@ -66,13 +64,12 @@ $ docker container run \
 To prepare a Docker image, create your own Docker image from scratch using a Dockerfile or download it from the Docker registry.
 [Docker Hub](https://hub.docker.com/) and [NVIDIA NGC Catalog](https://catalog.ngc.nvidia.com/containers) are the popular Docker registries.
 
-{{< hint warning >}}
-When selecting a Docker image that includes the CUDA Toolkit, please check the CUDA Toolkit version included in the image.
-You can check the supported CUDA Toolkit version by running the `nvidia-smi` command on the server.
-The version displayed in the upper right corner is the latest version of the supported CUDA Toolkit.
-
-( Version displayed in `nvidia-smi` ≦ CUDA Toolkit version you use)
-{{</ hint >}}
+> [!WARNING]
+> When selecting a Docker image that includes the CUDA Toolkit, please check the CUDA Toolkit version included in the image.
+> You can check the supported CUDA Toolkit version by running the `nvidia-smi` command on the server.
+> The version displayed in the upper right corner is the latest version of the supported CUDA Toolkit.
+>
+> ( Version displayed in `nvidia-smi` ≦ CUDA Toolkit version you use)
 
 You can check the loaded images by running:
 
@@ -89,9 +86,8 @@ You can remove Docker images by running:
 $ docker image rm IMAGE
 ```
 
-{{< hint warning >}}
-Please remove images that are no longer in use.
-{{</ hint >}}
+> [!WARNING]
+> Please remove images that are no longer in use.
 
 ## Reference
 

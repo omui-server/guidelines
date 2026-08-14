@@ -5,9 +5,8 @@ weight: 11
 
 # Login
 
-{{< hint warning >}}
-Please make sure that your client PC is connected to OMUNET (e.g. OMUNET-1X, VPN) to login to the OMUI Server.
-{{</ hint >}}
+> [!WARNING]
+> Please make sure that your client PC is connected to OMUNET (e.g. OMUNET-1X, VPN) to login to the OMUI Server.
 
 Let's login to the server:
 
@@ -17,9 +16,8 @@ $ ssh [username]@172.26.59.40
 
 ## Change your password
 
-{{< hint info >}}
-It is recommended to change the initial password.
-{{</ hint >}}
+> [!NOTE]
+> It is recommended to change the initial password.
 
 If you want to change the password, run the following command on the server:
 
@@ -29,10 +27,9 @@ $ passwd
 
 ## (Optional) SSH Public Key Authentication
 
-{{< hint danger >}}
-If you are connecting from a shared PC, do not do the following.
-It may allow others to login with your credentials.
-{{</ hint >}}
+> [!CAUTION]
+> If you are connecting from a shared PC, do not do the following.
+> It may allow others to login with your credentials.
 
 SSH public key authentication allows you to login to the server without entering your password everytime.
 

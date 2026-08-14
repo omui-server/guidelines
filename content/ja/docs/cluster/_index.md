@@ -20,15 +20,14 @@ bookFlatSection: true
 
 Slackの [#use_computer](https://omuiserver.slack.com/archives/C07CEM8HT1D) チャンネルで利用する旨を投稿してください。
     
-{{< hint info >}}
-**フォーマット**
-
-using `[ノード名] (device: [デバイスID])` for `[期間]`
-
-**投稿例**
-
-using `igpu01 (device: 0)` for a while
-{{</ hint >}}
+> [!NOTE]
+> **フォーマット**
+>
+> using `[ノード名] (device: [デバイスID])` for `[期間]`
+>
+> **投稿例**
+>
+> using `igpu01 (device: 0)` for a while
 
 ## 使い終わったら
 

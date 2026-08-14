@@ -35,7 +35,7 @@ Once your research group administrator has created your OMUI Server account, you
 
 ### Research group administrators
 
-If you receive a request from a default user (mainly students) to create an account or to add a research group administrator, please use the OMUI Server Account Manager according to [Managing Users]({{< relref "/docs/admin/account" >}}) page.
+If you receive a request from a default user (mainly students) to create an account or to add a research group administrator, please use the OMUI Server Account Manager according to [Managing Users](/docs/admin/account) page.
 If your research group does not have an account yet, please contact us at omuiserver@affectify.jp with the following information.
 We will manually create an account and provide you with the username and initial password.
 
