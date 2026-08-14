@@ -9,10 +9,10 @@
 
 1.  以下のパッケージをインストールしてください。
 
-    1. [Hugo](https://gohugo.io/installation/) (extended edition, v0.112.0 or later)
+    1. [Hugo](https://gohugo.io/installation/) (extended edition, v0.158.0 or later)
     1. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-1.  Hugo v0.112.0以降をインストールしたことを確認してください。
+1.  Hugo v0.158.0以降をインストールしたことを確認してください。
 
     ```bash
     hugo version
@@ -20,8 +20,11 @@
 
 1.  本リポジトリをcloneしてください
 
+    テーマをsubmoduleとして読み込んでいるため `--recursive` が必要です。
+    付け忘れた場合は `git submodule update --init --recursive` を実行してください。
+
     ```bash
-    git clone git@github.com:omui-server/guidelines.git
+    git clone --recursive git@github.com:omui-server/omui-server.github.io.git
     ```
 
 ### 開発サーバー
@@ -56,6 +59,24 @@
                └── index.md
 ```
 
+### 注意書きブロック
+
+色付きの注意書きは以下の記法で書きます。
+
+````markdown
+> [!NOTE]
+> 補足情報
+
+> [!WARNING]
+> 注意事項
+
+> [!CAUTION]
+> 重大な注意事項
+````
+
+`> [!TIP]` と `> [!IMPORTANT]` も使用できます。
+かつて使用していた `{{< hint >}}` ショートコードは廃止されました。
+
 ### デプロイ
 
-`main` ブランチにコミットすると、GitHub Actionsが自動で https://omui-server.github.io/guidelines/ にデプロイします。
+`main` ブランチにコミットすると、GitHub Actionsが自動で https://omui-server.github.io/ にデプロイします。
