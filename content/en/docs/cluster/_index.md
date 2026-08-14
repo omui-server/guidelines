@@ -20,15 +20,14 @@ Make sure no one else is using the resource you want to use.
 
 Send a message in the [#use_computer](https://omuiserver.slack.com/archives/C07CEM8HT1D) channel and declare your usage.
     
-{{< hint info >}}
-**Message format**
-
-using `[nodename] (device: [device ID])` for `[term]`
-
-**Example**
-
-using `igpu01 (device: 0)` for a while
-{{</ hint >}}
+> [!NOTE]
+> **Message format**
+>
+> using `[nodename] (device: [device ID])` for `[term]`
+>
+> **Example**
+>
+> using `igpu01 (device: 0)` for a while
 
 ## When you finished running your jobs
 

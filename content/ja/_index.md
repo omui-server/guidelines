@@ -14,14 +14,14 @@ OMUI Server は個人が独占して使用するものではなく、情報学�
 
 ## 目次
 
-- [**Getting Started**]({{< relref "/docs/getting-started" >}})
-  - [ログイン]({{< relref "/docs/getting-started/login" >}})
-  - [ストレージ]({{< relref "/docs/getting-started/storage" >}})
-- [**GPU利用ガイド**]({{< relref "/docs/cluster" >}})
-  - [Docker]({{< relref "/docs/cluster/docker" >}})
-  - [リソース割り当て]({{< relref "/docs/cluster/resource-allocation" >}})
-  - [リソース一覧]({{< relref "/docs/cluster/resource" >}})
-  - [GPU Monitoring]({{< relref "/docs/cluster/monitoring" >}})
+- [**Getting Started**](/docs/getting-started)
+  - [ログイン](/docs/getting-started/login)
+  - [ストレージ](/docs/getting-started/storage)
+- [**GPU利用ガイド**](/docs/cluster)
+  - [Docker](/docs/cluster/docker)
+  - [リソース割り当て](/docs/cluster/resource-allocation)
+  - [リソース一覧](/docs/cluster/resource)
+  - [GPU Monitoring](/docs/cluster/monitoring)
 
 ## お問い合わせ
 

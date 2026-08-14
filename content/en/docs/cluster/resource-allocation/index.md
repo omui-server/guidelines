@@ -14,10 +14,9 @@ By default (no specification), no GPUs are allocated.
 Please check the device IDs by running the `nvidia-smi` command on the server.
 For example, `igpu01` has four GPUs, each assigned a device ID from 0 to 4.
 
-{{< hint warning >}}
-To avoid resource conflicts, please use device IDs to specify GPUs.
-Use `--gpus all` only if you want to use all GPUs.
-{{</ hint >}}
+> [!WARNING]
+> To avoid resource conflicts, please use device IDs to specify GPUs.
+> Use `--gpus all` only if you want to use all GPUs.
 
 ```bash
 --gpus [Device ID of the GPU to be used / all]

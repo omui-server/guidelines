@@ -38,9 +38,8 @@ Docker Imageのpull、ビルド時、Dockerコンテナ内でのインターネ�
 
 `rootless-docker-install` 実行時に自動的にプロキシ設定が行われますので、追加の設定は不要です。
 
-{{< hint warning >}}
-2024/11/25以前に `rootless-docker-install` を実行した場合は、 `systemctl --user stop docker.service` でDockerを停止し、 `rootless-docker-install` を再度実行してください。
-{{< /hint >}}
+> [!WARNING]
+> 2024/11/25以前に `rootless-docker-install` を実行した場合は、 `systemctl --user stop docker.service` でDockerを停止し、 `rootless-docker-install` を再度実行してください。
 
 ### Docker Imageのビルド時およびDockerコンテナ内でのインターネットアクセス
 
@@ -63,9 +62,8 @@ Docker Imageのpull、ビルド時、Dockerコンテナ内でのインターネ�
 }
 ```
 
-{{< hint info >}}
-将来的には、ユーザがログイン時に自動的に設定されるようになる予定です。
-{{< /hint >}}
+> [!NOTE]
+> 将来的には、ユーザがログイン時に自動的に設定されるようになる予定です。
 
 ## 環境変数
 

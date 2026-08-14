@@ -5,9 +5,8 @@ weight: 25
 
 # GPU Monitoring
 
-{{< hint warning >}}
-This tool is only accessible from the OMUNET.
-{{</ hint >}}
+> [!WARNING]
+> This tool is only accessible from the OMUNET.
 
 OMUI Server provides a job and server status monitoring tool using Grafana.
 

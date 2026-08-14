@@ -5,11 +5,10 @@ type: docs
 
 # OMUI Server User Guide
 
-{{< hint warning >}}
-Please note that the English version of the documentation may be older than the Japanese version.
-We will do our best to update the contents as much as possible.
-Thank you for your understanding.
-{{</ hint >}}
+> [!WARNING]
+> Please note that the English version of the documentation may be older than the Japanese version.
+> We will do our best to update the contents as much as possible.
+> Thank you for your understanding.
 
 The Graduate School of Informatics provides high-performance computing (HPC) resources for students and teachers.
 This document contains the information you need to use the Graduate School of Informatics Shared GPU Server (OMUI Server).
@@ -19,14 +18,14 @@ To ensure smooth and safe use of the server, please read this document from begi
 
 ## Table of Contents
 
-- [**Getting Started**]({{< relref "/docs/getting-started" >}})
-  - [Login]({{< relref "/docs/getting-started/login" >}})
-  - [Storage]({{< relref "/docs/getting-started/storage" >}})
-- [**Using GPUs**]({{< relref "/docs/cluster" >}})
-  - [Docker]({{< relref "/docs/cluster/docker" >}})
-  - [Resource Allocation]({{< relref "/docs/cluster/resource-allocation" >}})
-  - [Resources]({{< relref "/docs/cluster/resource" >}})
-  - [GPU Monitoring]({{< relref "/docs/cluster/monitoring" >}})
+- [**Getting Started**](/docs/getting-started)
+  - [Login](/docs/getting-started/login)
+  - [Storage](/docs/getting-started/storage)
+- [**Using GPUs**](/docs/cluster)
+  - [Docker](/docs/cluster/docker)
+  - [Resource Allocation](/docs/cluster/resource-allocation)
+  - [Resources](/docs/cluster/resource)
+  - [GPU Monitoring](/docs/cluster/monitoring)
 
 ## Contact
 

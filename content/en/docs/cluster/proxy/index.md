@@ -38,9 +38,8 @@ The proxy settings are different when pulling Docker Images, building them, and 
 
 Proxy settings are automatically configured when running `rootless-docker-install`, so no additional settings are required.
 
-{{< hint warning >}}
-If you ran `rootless-docker-install` before 2024/11/25, stop Docker with `systemctl --user stop docker.service` and run `rootless-docker-install` again.
-{{< /hint >}}
+> [!WARNING]
+> If you ran `rootless-docker-install` before 2024/11/25, stop Docker with `systemctl --user stop docker.service` and run `rootless-docker-install` again.
 
 ### Building Docker Images and Accessing the Internet in Docker Containers
 
@@ -63,9 +62,8 @@ You can access the Internet through a proxy by adding the following to `$HOME/.d
 }
 ```
 
-{{< hint info >}}
-We are planning to configure the settings automatically in the future.
-{{< /hint >}}
+> [!NOTE]
+> We are planning to configure the settings automatically in the future.
 
 ## Environment Variables
 
